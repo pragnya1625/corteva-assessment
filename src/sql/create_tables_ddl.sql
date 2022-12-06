@@ -19,6 +19,6 @@ CREATE TABLE if not exists  WEATHER_DATA_STATS
 year VARCHAR2(4),
 avg_min_temp NUMBER,
 avg_max_temp NUMBER,
-total_amount NUMBER
+total_amount NUMBER,
 CONSTRAINT UC_record UNIQUE (station, year)
 );
